@@ -3,59 +3,73 @@ import React from "react";
 function InfoCard() {
   return (
     <div className="card-background">
-      <div class=" card-group mx-auto" style={{ width: "1000px" }}>
-        <div class="card">
-          <img
-            src="https://i.ytimg.com/vi/QuF_hkXTyrI/maxresdefault.jpg"
-            class="card-img-top"
-            alt="..."
-          ></img>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
+      <div class=" card-group mx-auto" style={{ width: "62.5rem" }}>
+        <div class="row">
+          <div class="pricing-col col-lg-4 col-md-6">
+            <div class="card">
+              <img
+                src="https://i.ytimg.com/vi/QuF_hkXTyrI/maxresdefault.jpg"
+                class="card-img-top"
+                alt="..."
+              ></img>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img
-            src="https://i.ytimg.com/vi/QuF_hkXTyrI/maxresdefault.jpg"
-            class="card-img-top"
-            alt="..."
-          ></img>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
+
+        <div class="row">
+          <div class="pricing-col col-lg-4 col-md-6">
+            <div class="card">
+              <img
+                src="https://i.ytimg.com/vi/QuF_hkXTyrI/maxresdefault.jpg"
+                class="card-img-top"
+                alt="..."
+              ></img>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img
-            src="https://i.ytimg.com/vi/QuF_hkXTyrI/maxresdefault.jpg"
-            class="card-img-top"
-            alt="..."
-          ></img>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
+
+        <div class="row">
+          <div class="pricing-col col-lg-4 col-md-6">
+            <div class="card">
+              <img
+                src="https://i.ytimg.com/vi/QuF_hkXTyrI/maxresdefault.jpg"
+                class="card-img-top"
+                alt="..."
+              ></img>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

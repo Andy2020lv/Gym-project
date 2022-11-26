@@ -7,7 +7,7 @@ function PricingCards() {
         <h2 id="pricing-heading" class="section-heading">
           A Plan for Every Dog's Needs
         </h2>
-        <p className="pricing-par">
+        <p className="pricing-par ">
           Simple and affordable price plans for your and your dog.
         </p>
 

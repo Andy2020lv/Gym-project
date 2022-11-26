@@ -3,6 +3,16 @@ body {
 }
 
 /* ////////////////Header///////////////// */
+
+#title .container-fluid {
+  padding-top: 3%;
+  text-align: left;
+}
+@media (max-width: 1020px) {
+  #title {
+    text-align: center;
+  }
+}
 header {
   background-color: black;
   margin: auto -16px;
@@ -13,8 +23,8 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 30rem;
-  width: 50rem;
+  height: 480px;
+  width: 800px;
 }
 
 .InfoCard {
@@ -71,4 +81,9 @@ header {
 }
 .footer {
   background-color: yellow;
+}
+
+.black-section {
+  background-color: black;
+  color: white;
 }
