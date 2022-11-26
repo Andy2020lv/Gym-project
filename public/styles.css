@@ -1,0 +1,74 @@
+body {
+  background-color: white;
+}
+
+/* ////////////////Header///////////////// */
+header {
+  background-color: black;
+  margin: auto -16px;
+  padding: 20px 32px;
+}
+
+.home-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30rem;
+  width: 50rem;
+}
+
+.InfoCard {
+  background-color: yellow;
+}
+.InfoCard .card {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.card-background {
+  background-color: yellow;
+  padding-right: 50px;
+  padding: 100px;
+}
+
+/* //////////////////////////Pricing////////////////////////////// */
+
+#pricing {
+  padding: 100px;
+  background-color: black;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#pricing-heading {
+  color: white;
+  text-align: center;
+}
+
+.pricing-par {
+  color: white;
+  text-align: center;
+}
+
+/* //////////////////Footer///////////////// */
+
+#footer {
+  padding: 8rem;
+  text-align: center;
+  color: #8f8f8f;
+}
+.footer {
+  background-color: yellow;
+}
