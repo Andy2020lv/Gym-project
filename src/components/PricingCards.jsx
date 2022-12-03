@@ -3,7 +3,7 @@ import React from "react";
 function PricingCards() {
   return (
     <div>
-      <section id="pricing" class="white-section">
+      <section id="pricing" class="black-section">
         <h2 id="pricing-heading" class="section-heading">
           A Plan for Every Dog's Needs
         </h2>

@@ -1,46 +1,143 @@
 body {
-  background-color: white;
+  text-align: center;
 }
 
 /* ////////////////Header///////////////// */
-
+/* 
 #title .container-fluid {
   padding-top: 3%;
   text-align: left;
-}
+} */
 @media (max-width: 1020px) {
   #title {
     text-align: center;
   }
 }
-header {
-  background-color: black;
-  margin: auto -16px;
-  padding: 20px 32px;
+
+@media (max-width: 400px) {
+  .bg-warning {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
-.home-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 480px;
-  width: 800px;
-}
-
-.InfoCard {
-  background-color: yellow;
-}
-.InfoCard .card {
-  background-color: black;
-  text-align: center;
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin: 6rem auto 2rem;
   color: white;
 }
 
-.card-background {
+.container-fluid {
+  padding: 7% 15%;
+}
+/* header {
+  background-color: black;
+  margin: auto -16px;
+  padding: 20px 32px;
+} */
+
+@media (max-width: 600px) {
+  .home-img {
+    width: 120%;
+  }
+}
+
+/* .InfoCard {
+  background-color: yellow;
+} */
+/* .InfoCard .card {
+  text-align: center;
+  color: white;
+} */
+
+/* .card-background {
   background-color: yellow;
   padding-right: 50px;
   padding: 100px;
+} */
+
+/* /////////////////////Over Section ///////////////////////// */
+
+.over-section-container {
+  /* background-color: aliceblue; */
+  position: absolute;
+  z-index: 10;
+  margin: 27% 35% auto 43%;
 }
+
+.over-section {
+  width: 600px;
+  height: 200px;
+  margin-top: 15%;
+  background-color: #ffc600;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+.over-section img {
+  height: 100px;
+  border-radius: 60px;
+  margin-left: 10px;
+  /* margin: 5rem;
+  position: inherit; */
+}
+
+.over-section p {
+  text-align: left;
+  margin-left: 10px;
+}
+
+@media (max-width: 1000px) {
+  .over-section-container {
+    /* visibility: hidden; */
+    position: absolute;
+    z-index: 10;
+    margin-left: 14%;
+    margin-top: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .over-section-container {
+    position: absolute;
+    z-index: 10;
+    margin-top: 22%;
+  }
+  .over-section {
+    width: 300px;
+    height: 100px;
+    margin-top: 10%;
+  }
+  .over-section img {
+    height: 40px;
+  }
+  .over-section p {
+    font-size: 10px;
+    margin-top: 4px;
+  }
+}
+
+/* /////////Cards//////////////// */
+@media (min-width: 800px) {
+  #cards {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+/* #cards {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+} */
 
 /* //////////////////////////Pricing////////////////////////////// */
 
@@ -72,18 +169,30 @@ header {
   text-align: center;
 }
 
+.card-header {
+  color: black;
+}
+.card-body {
+  color: black;
+}
+
 /* //////////////////Footer///////////////// */
 
 #footer {
-  padding: 8rem;
+  padding: 2rem;
   text-align: center;
   color: #8f8f8f;
 }
-.footer {
-  background-color: yellow;
+#footer a {
+  color: black;
 }
 
 .black-section {
-  background-color: black;
+  background-color: #100720;
   color: white;
+}
+
+.colored-section {
+  background-color: #ffc600;
+  color: black;
 }

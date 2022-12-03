@@ -10,6 +10,8 @@ function Title() {
         <img
           src="https://i.ytimg.com/vi/sOtV44B0pXQ/hqdefault.jpg"
           alt="home"
+          width={"100%"}
+          className="home-img"
         ></img>
       </div>
     </div>
