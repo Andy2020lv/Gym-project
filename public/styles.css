@@ -193,6 +193,12 @@ body {
   line-height: 1.5;
 }
 
+@media (min-width: 350px) {
+  #pricing-heading {
+    font-size: 30px;
+  }
+}
+
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
@@ -200,6 +206,7 @@ body {
 #pricing-heading {
   color: black;
   text-align: center;
+  font-size: 2rem;
 }
 
 .pricing-par {
@@ -212,7 +219,6 @@ body {
 }
 .card-body {
   color: black;
-  height: 130px;
 }
 
 /* //////////////////Footer///////////////// */

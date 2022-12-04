@@ -7,7 +7,7 @@ function PricingCards() {
         <h2 id="pricing-heading" class="section-heading">
           Tipos de subscripciones
         </h2>
-        <p className="pricing-par ">Nos adaptamos a tus necesidades.</p>
+        <p className="pricing-par ">Cuotas</p>
 
         <div class="row">
           <div class="pricing-col col-lg-4 col-md-6">
