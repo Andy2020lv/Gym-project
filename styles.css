@@ -150,6 +150,12 @@ body {
     justify-content: space-around;
   }
 }
+
+@media (max-width: 350px) {
+  .cards-div {
+    padding: 0;
+  }
+}
 .card-img-top {
   height: 160px;
 }
@@ -189,7 +195,7 @@ body {
 }
 
 .price-text {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
