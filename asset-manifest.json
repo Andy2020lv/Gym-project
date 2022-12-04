@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.js": "/Gym-project/static/js/main.e9a0272d.js",
+    "main.js": "/Gym-project/static/js/main.596e254f.js",
     "static/media/starlyn2.jpg": "/Gym-project/static/media/starlyn2.0bdc95b85d823dd4f7ee.jpg",
     "static/media/andy.jpg": "/Gym-project/static/media/andy.63f710ce9b58f84ce30f.jpg",
     "static/media/elGuardia.jpg": "/Gym-project/static/media/elGuardia.db80438b9c39101a7593.jpg",
     "static/media/starGym.jpg": "/Gym-project/static/media/starGym.68360a9660e7f7ef977a.jpg",
-    "static/media/grupal.jpg": "/Gym-project/static/media/grupal.cad4fdf6cb5d1661eb78.jpg",
     "static/media/starlyn.jpg": "/Gym-project/static/media/starlyn.49f67fd904718141b379.jpg",
     "static/media/comunidad.jpg": "/Gym-project/static/media/comunidad.8168df7fd6fd2a2ff359.jpg",
     "index.html": "/Gym-project/index.html",
-    "main.e9a0272d.js.map": "/Gym-project/static/js/main.e9a0272d.js.map"
+    "main.596e254f.js.map": "/Gym-project/static/js/main.596e254f.js.map"
   },
   "entrypoints": [
-    "static/js/main.e9a0272d.js"
+    "static/js/main.596e254f.js"
   ]
 }
