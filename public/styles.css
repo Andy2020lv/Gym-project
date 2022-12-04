@@ -1,5 +1,16 @@
 body {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ////////////////////Navbar ////////////////////// */
+
+.navbar-dark .navbar-brand {
+  font-weight: 900;
+  font-size: x-large;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-weight: 800;
 }
 
 /* ////////////////Header///////////////// */
@@ -8,6 +19,12 @@ body {
   padding-top: 3%;
   text-align: left;
 } */
+
+.bg-warning {
+  background-color: transparent !important;
+
+  padding: 20px;
+}
 @media (max-width: 1020px) {
   #title {
     text-align: center;
@@ -31,7 +48,7 @@ body {
 }
 
 .container-fluid {
-  padding: 7% 15%;
+  padding: 8% 15%;
 }
 /* header {
   background-color: black;
@@ -70,14 +87,13 @@ body {
 
 .over-section {
   width: 600px;
-  height: 200px;
-  margin-top: 15%;
-  background-color: #ffc600;
+  height: 150px;
   color: black;
   display: flex;
   align-items: center;
   justify-content: space-around;
   border-radius: 20px;
+  font-weight: 900;
 }
 
 .over-section img {
@@ -91,6 +107,7 @@ body {
 .over-section p {
   text-align: left;
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 @media (max-width: 1000px) {
@@ -103,7 +120,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .over-section-container {
     position: absolute;
     z-index: 10;
@@ -132,6 +149,9 @@ body {
     justify-content: space-around;
   }
 }
+.card-img-top {
+  height: 160px;
+}
 /* #cards {
   padding: 100px 0;
   display: flex;
@@ -139,11 +159,28 @@ body {
   justify-content: space-around;
 } */
 
+/* //////////////////Trainer section /////////////////// */
+
+#trainers {
+  /* width: auto; */
+  height: 600px;
+}
+
+#trainers h2 {
+  margin-bottom: 30px;
+}
+#trainers img {
+  /* width: 300px !important; */
+  border-radius: 200px;
+  margin-right: 20px;
+  height: 200px;
+  /* width: 200px; */
+}
+
 /* //////////////////////////Pricing////////////////////////////// */
 
 #pricing {
   padding: 100px;
-  background-color: black;
 }
 
 .pricing-col {
@@ -160,12 +197,12 @@ body {
   line-height: 1.5;
 }
 #pricing-heading {
-  color: white;
+  color: black;
   text-align: center;
 }
 
 .pricing-par {
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -174,6 +211,7 @@ body {
 }
 .card-body {
   color: black;
+  height: 130px;
 }
 
 /* //////////////////Footer///////////////// */
@@ -182,17 +220,24 @@ body {
   padding: 2rem;
   text-align: center;
   color: #8f8f8f;
+  font-family: "Times New Roman", Times, serif;
 }
 #footer a {
   color: black;
 }
 
 .black-section {
-  background-color: #100720;
+  /* background-color: #100720; */
+  background: #ffc600;
+  background: linear-gradient(168deg, #ffc600 0%, #151715 80%);
+  background: -webkit-linear-gradient(168deg, #ffc600 0%, #151715 80%);
+  background: -moz-linear-gradient(168deg, #ffc600 0%, #151715 80%);
   color: white;
 }
 
 .colored-section {
-  background-color: #ffc600;
+  /* background-color: #ffc600; */
+  background-color: #e3e5ea;
+
   color: black;
 }

@@ -12,12 +12,17 @@ function Navbar() {
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
             <a class="nav-link" href="#footer">
-              Contact
+              Contactos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#trainers">
+              Entrenadores
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#pricing">
-              About Us
+              Precios
             </a>
           </li>
         </ul>

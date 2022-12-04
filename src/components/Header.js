@@ -7,15 +7,9 @@ function Header() {
       <div className="over-section-container">
         <div className="over-section">
           <img src="https://th.bing.com/th/id/OIP.YUnlEQZXcI2-Ow6x7TtvJgHaFs?pid=ImgDet&rs=1"></img>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor.
-          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur.</p>
           <img src="https://th.bing.com/th/id/OIP.YUnlEQZXcI2-Ow6x7TtvJgHaFs?pid=ImgDet&rs=1"></img>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor.
-          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur.</p>
         </div>
       </div>
       <Navbar />

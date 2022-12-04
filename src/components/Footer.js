@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="colored-section">
+    <div className="black-section">
       <footer id="footer">
         <div className="container-fluid">
           <p className="footer-text">© Copyright A Gym</p>

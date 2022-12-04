@@ -18,4 +18,7 @@ function App() {
   );
 }
 
+// TODO
+// Add a story/trajectory and trainers sections
+
 export default App;
