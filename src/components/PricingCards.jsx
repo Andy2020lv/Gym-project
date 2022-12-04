@@ -5,7 +5,7 @@ function PricingCards() {
     <div>
       <section id="pricing" class="colored-section">
         <h2 id="pricing-heading" class="section-heading">
-          Tipos de subscripciones
+          Cuotas
         </h2>
         <p className="pricing-par ">Cuotas</p>
 
