@@ -2,7 +2,7 @@ import React from "react";
 
 function InfoCard(props) {
   return (
-    <div className="container-fluid colored-section">
+    <div className="container-fluid colored-section cards-div">
       <section id="cards">
         <div
           class="card col-lg-4 col-md-6 col-sm-12"
