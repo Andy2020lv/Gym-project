@@ -1,0 +1,244 @@
+body {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ////////////////////Navbar ////////////////////// */
+
+.navbar-dark .navbar-brand {
+  font-weight: 900;
+  font-size: x-large;
+}
+.navbar-dark .navbar-nav .nav-link {
+  font-weight: 800;
+}
+
+/* ////////////////Header///////////////// */
+/* 
+#title .container-fluid {
+  padding-top: 3%;
+  text-align: left;
+} */
+
+.bg-warning {
+  background-color: transparent !important;
+
+  padding: 20px;
+}
+@media (max-width: 1020px) {
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .bg-warning {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin: 6rem auto 2rem;
+  color: white;
+}
+
+.container-fluid {
+  padding: 8% 15%;
+}
+/* header {
+  background-color: black;
+  margin: auto -16px;
+  padding: 20px 32px;
+} */
+
+@media (max-width: 600px) {
+  .home-img {
+    width: 120%;
+  }
+}
+
+/* .InfoCard {
+  background-color: yellow;
+} */
+/* .InfoCard .card {
+  text-align: center;
+  color: white;
+} */
+
+/* .card-background {
+  background-color: yellow;
+  padding-right: 50px;
+  padding: 100px;
+} */
+
+/* /////////////////////Over Section ///////////////////////// */
+
+.over-section-container {
+  /* background-color: aliceblue; */
+  position: absolute;
+  z-index: 10;
+  margin: 27% 35% auto 43%;
+}
+
+.over-section {
+  width: 600px;
+  height: 150px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  font-weight: 900;
+  margin-top: 136px;
+}
+
+.over-section img {
+  height: 100px;
+  border-radius: 60px;
+  margin-left: 10px;
+  /* margin: 5rem;
+  position: inherit; */
+}
+
+.over-section p {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+@media (max-width: 1000px) {
+  .over-section-container {
+    /* visibility: hidden; */
+    position: absolute;
+    z-index: 10;
+    margin-left: 14%;
+    margin-top: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .over-section-container {
+    position: absolute;
+    z-index: 10;
+    margin-top: 22%;
+  }
+  .over-section {
+    width: 300px;
+    height: 100px;
+    margin-top: 10%;
+  }
+  .over-section img {
+    height: 40px;
+  }
+  .over-section p {
+    font-size: 10px;
+    margin-top: 4px;
+  }
+}
+
+/* /////////Cards//////////////// */
+@media (min-width: 800px) {
+  #cards {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+.card-img-top {
+  height: 160px;
+}
+/* #cards {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+} */
+
+/* //////////////////Trainer section /////////////////// */
+
+#trainers {
+  /* width: auto; */
+  height: 600px;
+}
+
+#trainers h2 {
+  margin-bottom: 30px;
+}
+#trainers img {
+  /* width: 300px !important; */
+  border-radius: 200px;
+  margin-right: 20px;
+  height: 200px;
+  /* width: 200px; */
+}
+
+/* //////////////////////////Pricing////////////////////////////// */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#pricing-heading {
+  color: black;
+  text-align: center;
+}
+
+.pricing-par {
+  color: black;
+  text-align: center;
+}
+
+.card-header {
+  color: black;
+}
+.card-body {
+  color: black;
+  height: 130px;
+}
+
+/* //////////////////Footer///////////////// */
+
+#footer {
+  padding: 2rem;
+  text-align: center;
+  color: #8f8f8f;
+  font-family: "Times New Roman", Times, serif;
+}
+#footer a {
+  color: black;
+}
+
+.black-section {
+  /* background-color: #100720; */
+  background: #ffc600;
+  background: linear-gradient(168deg, #ffc600 0%, #151715 80%);
+  background: -webkit-linear-gradient(168deg, #ffc600 0%, #151715 80%);
+  background: -moz-linear-gradient(168deg, #ffc600 0%, #151715 80%);
+  color: white;
+}
+
+.colored-section {
+  /* background-color: #ffc600; */
+  background-color: #e3e5ea;
+
+  color: black;
+}
