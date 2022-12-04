@@ -1,4 +1,5 @@
 import React from "react";
+import starGym from "./images/starGym.jpg";
 
 function Title() {
   return (
@@ -7,12 +8,7 @@ function Title() {
         <h1 className="big-heading">Star Gym</h1>
       </div>
       <div className="col col-lg-6">
-        <img
-          src="https://lh5.googleusercontent.com/p/AF1QipPju_CFOoVb2vcA3F2W3r-VZq59bpd2-gaaTClL=s0"
-          alt="home"
-          width={"100%"}
-          className="home-img"
-        ></img>
+        <img src={starGym} alt="home" width={"70%"} className="home-img"></img>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import andy from "./images/andy.jpg";
 import elGuardia from "./images/elGuardia.jpg";
+import starlyn2 from "./images/starlyn2.jpg";
 
 export default function Trainers() {
   return (
@@ -39,7 +40,7 @@ export default function Trainers() {
             <h2 class="testimonial-text">Chunito</h2>
             <img
               class="testimonial-img"
-              src="https://th.bing.com/th/id/OIP.Cd4BJv21oAq3NWXAbM4DlwHaHa?w=175&h=180&c=7&r=0&o=5&pid=1.7"
+              src={starlyn2}
               alt="lady-profile"
             ></img>
             <em>Starlyn Toribio</em>
