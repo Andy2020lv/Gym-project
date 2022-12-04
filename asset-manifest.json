@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Gym-project/static/js/main.923c34be.js",
+    "main.js": "/Gym-project/static/js/main.4ea1aca6.js",
     "static/media/starlyn2.jpg": "/Gym-project/static/media/starlyn2.0bdc95b85d823dd4f7ee.jpg",
     "static/media/andy.jpg": "/Gym-project/static/media/andy.63f710ce9b58f84ce30f.jpg",
     "static/media/elGuardia.jpg": "/Gym-project/static/media/elGuardia.db80438b9c39101a7593.jpg",
@@ -9,9 +9,9 @@
     "static/media/starlyn.jpg": "/Gym-project/static/media/starlyn.49f67fd904718141b379.jpg",
     "static/media/comunidad.jpg": "/Gym-project/static/media/comunidad.8168df7fd6fd2a2ff359.jpg",
     "index.html": "/Gym-project/index.html",
-    "main.923c34be.js.map": "/Gym-project/static/js/main.923c34be.js.map"
+    "main.4ea1aca6.js.map": "/Gym-project/static/js/main.4ea1aca6.js.map"
   },
   "entrypoints": [
-    "static/js/main.923c34be.js"
+    "static/js/main.4ea1aca6.js"
   ]
 }
