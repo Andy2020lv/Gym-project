@@ -180,6 +180,12 @@ body {
   justify-content: space-around;
 } */
 
+/* /////////////////////////Progress section /////////////////////*/
+
+/* #progress {
+  height: 200px;
+} */
+
 /* //////////////////Trainer section /////////////////// */
 
 #trainers {
@@ -267,4 +273,8 @@ body {
   background-color: #e3e5ea;
 
   color: black;
+}
+
+.diff-section {
+  background-color: #e3e5ea;
 }
