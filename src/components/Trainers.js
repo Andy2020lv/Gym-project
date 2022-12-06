@@ -1,11 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import andy from "./images/andy.jpg";
 import elGuardia from "./images/elGuardia.jpg";
 import starlyn2 from "./images/starlyn2.jpg";
+import ricardo from "./images/ricardo.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Trainers() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
-    <section id="trainers" className="black-section">
+    <section
+      data-aos="fade-zoom-in"
+      data-aos-offset="200"
+      data-aos-easing="ease-in-sine"
+      data-aos-duration="600"
+      id="trainers"
+      className="black-section"
+    >
       <div
         id="carouselExampleControls"
         class="carousel slide"
@@ -29,12 +42,8 @@ export default function Trainers() {
           </div>
           <div class="carousel-item container-fluid">
             <h2 class="testimonial-text">Ricardo</h2>
-            <img
-              class="testimonial-img"
-              src="https://th.bing.com/th/id/OIP.Cd4BJv21oAq3NWXAbM4DlwHaHa?w=175&h=180&c=7&r=0&o=5&pid=1.7"
-              alt="lady-profile"
-            ></img>
-            <em>Beverly, Illinois</em>
+            <img class="testimonial-img" src={ricardo} alt="lady-profile"></img>
+            <em>Ricardo Ventura. Entrenador de piso y personal.</em>
           </div>
           <div class="carousel-item container-fluid">
             <h2 class="testimonial-text">Chunito</h2>
@@ -43,7 +52,7 @@ export default function Trainers() {
               src={starlyn2}
               alt="lady-profile"
             ></img>
-            <em>Starlyn Toribio</em>
+            <em>Starlyn Toribio. Entrenador de piso y personal</em>
           </div>
         </div>
         <button

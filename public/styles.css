@@ -5,6 +5,13 @@ body {
 
 /* ////////////////////Navbar ////////////////////// */
 
+@media (max-width: 350px) {
+  .title-img {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .navbar-dark .navbar-brand {
   font-weight: 900;
   font-size: x-large;
@@ -112,16 +119,6 @@ body {
   max-width: 65px;
 }
 
-@media (max-width: 1000px) {
-  .over-section-container {
-    /* visibility: hidden; */
-    position: absolute;
-    z-index: 10;
-    margin-left: 14%;
-    margin-top: 70%;
-  }
-}
-
 @media (max-width: 500px) {
   .over-section-container {
     position: absolute;
@@ -130,8 +127,8 @@ body {
   }
   .over-section {
     width: 200px;
-    height: 200px;
-    margin-top: 45%;
+    height: 130px;
+    margin-top: 0;
   }
   .over-section img {
     height: 40px;
@@ -139,6 +136,16 @@ body {
   .over-section p {
     font-size: 10px;
     margin-top: 4px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .over-section-container {
+    /* visibility: hidden; */
+    position: absolute;
+    z-index: 10;
+    margin-left: 14%;
+    margin-top: 70%;
   }
 }
 
@@ -154,7 +161,13 @@ body {
 
 @media (max-width: 350px) {
   .cards-div {
-    padding: 0;
+    padding: 7% 3%;
+  }
+  #cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
   }
 }
 .card-img-top {
@@ -233,7 +246,7 @@ body {
 #footer {
   padding: 2rem;
   text-align: center;
-  color: #8f8f8f;
+  color: white;
   font-family: "Times New Roman", Times, serif;
 }
 #footer a {

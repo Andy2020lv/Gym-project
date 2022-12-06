@@ -4,7 +4,7 @@ import Title from "./Title";
 function Navbar() {
   return (
     <div className="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-warning">
         <a class="navbar-brand" href=".">
           A Gym
         </a>
