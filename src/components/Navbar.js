@@ -6,13 +6,13 @@ function Navbar() {
     <div className="container-fluid">
       <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-warning">
         <a class="navbar-brand" href=".">
-          A Gym
+          Star Body Fit
         </a>
 
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#footer">
-              Contactos
+            <a class="nav-link" href="#clientes">
+              Clientes
             </a>
           </li>
           <li class="nav-item">
@@ -23,6 +23,11 @@ function Navbar() {
           <li class="nav-item">
             <a class="nav-link" href="#pricing">
               Precios
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">
+              Contactos
             </a>
           </li>
         </ul>

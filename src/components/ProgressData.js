@@ -1,4 +1,3 @@
-import React from "react";
 import img1 from "./images/progress1.jpg";
 import img2 from "./images/progress2.jpg";
 import img3 from "./images/progress3.jpg";
@@ -10,7 +9,7 @@ import img7 from "./images/progress7.jpg";
 export default [
   {
     img: img1,
-    text: "Con maquinaria profecional. Las más completas y efectivas.",
+    text: "",
   },
   {
     img: img2,
@@ -22,7 +21,7 @@ export default [
   },
   {
     img: img4,
-    text: "Te prometemos un cambio físico que no podrás creer. Estamos listos para ayudarte.",
+    text: "",
   },
   {
     img: img5,
@@ -30,10 +29,10 @@ export default [
   },
   {
     img: img6,
-    text: "Te prometemos un cambio físico que no podrás creer. Estamos listos para ayudarte.",
+    text: "",
   },
   {
     img: img7,
-    text: "Te prometemos un cambio físico que no podrás creer. Estamos listos para ayudarte.",
+    text: "",
   },
 ];
