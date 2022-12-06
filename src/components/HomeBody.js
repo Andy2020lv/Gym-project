@@ -1,5 +1,8 @@
 import React from "react";
 import InfoCard from "./InfoCard";
+import ProgressCards from "./ProgressCards";
+import Progress from "./Progress";
+import data from "./ProgressData";
 import Trainers from "./Trainers";
 import PricingCards from "./PricingCards";
 import CardData from "./InfoCardData";
@@ -8,10 +11,13 @@ import machines from "./images/machines.jpg";
 import cambio from "./images/cambio.jpg";
 
 function HomeBody() {
-  console.log(CardData.data[0]);
   // const InfoCard = CardData.map(function (x) {
   //   return <InfoCard img={x.data[0]} text={x.data[0]} />;
   // });
+
+  const progressElements = data.map((element) => (
+    <ProgressCards img={element.img} text={element.text} />
+  ));
   return (
     <div>
       <InfoCard
@@ -22,6 +28,7 @@ function HomeBody() {
         img3={cambio}
         text3={CardData.data[2].text}
       />
+      <Progress child={progressElements} />
       <Trainers />
       <PricingCards />
     </div>

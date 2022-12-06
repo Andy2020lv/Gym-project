@@ -11,8 +11,7 @@ function App() {
     <div>
       <Header />
       <HomeBody />
-      {/* <HomeBody /> */}
-      {/* <PricingCards /> */}
+
       <Footer />
     </div>
   );
