@@ -198,6 +198,11 @@ body {
   }
 }
 
+/*///////////////////////// Progress /////////////////////////// */
+#clientes {
+  overflow: hidden;
+}
+
 /* //////////////////Trainer section /////////////////// */
 
 #trainers {
@@ -236,7 +241,9 @@ body {
     font-size: 30px;
   }
 }
-
+.card {
+  margin: 10px 0;
+}
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
