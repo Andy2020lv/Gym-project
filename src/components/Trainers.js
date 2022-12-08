@@ -21,34 +21,38 @@ export default function Trainers() {
     >
       <div
         id="carouselExampleControls"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active container-fluid">
-            <h2 class="testimonial-text">Andy</h2>
-            <img class="testimonial-img" src={andy} alt="dog-profile"></img>
+        <div className="carousel-inner">
+          <div className="carousel-item active container-fluid">
+            <h2 className="testimonial-text">Andy</h2>
+            <img className="testimonial-img" src={andy} alt="dog-profile"></img>
             <em>Andy Hernandez. Entrenador personal</em>
           </div>
 
-          <div class="carousel-item container-fluid">
-            <h2 class="testimonial-text">El Guardia</h2>
+          <div className="carousel-item container-fluid">
+            <h2 className="testimonial-text">El Guardia</h2>
             <img
-              class="testimonial-img"
+              className="testimonial-img"
               src={elGuardia}
               alt="lady-profile"
             ></img>
             <em>Eloy Sosa. Entrenador personal</em>
           </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="testimonial-text">Ricardo</h2>
-            <img class="testimonial-img" src={ricardo} alt="lady-profile"></img>
+          <div className="carousel-item container-fluid">
+            <h2 className="testimonial-text">Ricardo</h2>
+            <img
+              className="testimonial-img"
+              src={ricardo}
+              alt="lady-profile"
+            ></img>
             <em>Ricardo Ventura. Entrenador de piso y personal.</em>
           </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="testimonial-text">Chunito</h2>
+          <div className="carousel-item container-fluid">
+            <h2 className="testimonial-text">Chunito</h2>
             <img
-              class="testimonial-img"
+              className="testimonial-img"
               src={starlyn2}
               alt="lady-profile"
             ></img>
@@ -56,26 +60,30 @@ export default function Trainers() {
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </section>
   );
 }
-
-//               src="https://th.bing.com/th/id/OIP.Cd4BJv21oAq3NWXAbM4DlwHaHa?w=175&h=180&c=7&r=0&o=5&pid=1.7"

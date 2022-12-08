@@ -17,7 +17,7 @@ export default [
   },
   {
     img: img3,
-    text: "Misael",
+    text: "",
   },
   {
     img: img4,
@@ -25,7 +25,7 @@ export default [
   },
   {
     img: img5,
-    text: "Yera",
+    text: "",
   },
   {
     img: img6,

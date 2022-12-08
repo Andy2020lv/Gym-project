@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
+import blob from "../assets/blob1.svg";
 export default function Progress(props) {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -19,6 +19,9 @@ export default function Progress(props) {
       <section className="row" id="cards">
         {props.child}
       </section>
+      <div className="blob">
+        <img className="blob-svg" src={blob} alt="blob"></img>
+      </div>
     </div>
   );
 }
