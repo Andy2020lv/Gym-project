@@ -3,6 +3,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+#root {
+  overflow: hidden;
+}
+
 /* ////////////////////Navbar ////////////////////// */
 
 @media (max-width: 350px) {
@@ -173,6 +177,7 @@ body {
   width: 50vmax;
   animation: move1 10s ease-in-out infinite;
   z-index: -5;
+  overflow: hidden;
 
   transform-origin: 50% 50%;
 }
@@ -200,7 +205,6 @@ body {
 
 /*///////////////////////// Progress /////////////////////////// */
 #clientes {
-  overflow: hidden;
 }
 
 /* //////////////////Trainer section /////////////////// */
