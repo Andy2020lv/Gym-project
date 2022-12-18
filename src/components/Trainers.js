@@ -32,15 +32,6 @@ export default function Trainers() {
           </div>
 
           <div className="carousel-item container-fluid">
-            <h2 className="testimonial-text">El Guardia</h2>
-            <img
-              className="testimonial-img"
-              src={elGuardia}
-              alt="lady-profile"
-            ></img>
-            <em>Eloy Sosa. Entrenador personal</em>
-          </div>
-          <div className="carousel-item container-fluid">
             <h2 className="testimonial-text">Ricardo</h2>
             <img
               className="testimonial-img"
