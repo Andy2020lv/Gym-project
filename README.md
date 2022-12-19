@@ -18,7 +18,7 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-"Welcome to the repository for the Star Gym Toribio" website! This website is a simple, one-page resource for people interested in learning more about this gym. It provides information about their facilities and personal training options, as well as contact information and location details. The website is built using HTML, CSS, Bootstrap and React, and is designed to be easy to navigate and responsive on all devices.
+Welcome to the repository for the Star Gym Toribio" website! This website is a simple, one-page resource for people interested in learning more about this gym. It provides information about their facilities and personal training options, as well as contact information and location details. The website is built using HTML, CSS, Bootstrap and React, and is designed to be easy to navigate and responsive on all devices.
 
 #### Technologies
 
